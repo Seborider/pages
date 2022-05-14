@@ -9,7 +9,7 @@ export class AppComponent {
   images = [
     {
       title: 'At the beach',
-      url: 'https://unsplash.com/photos/KMn4VEeEPR8'
+      url: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80'
     },
 
     {

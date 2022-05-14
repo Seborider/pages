@@ -9,14 +9,14 @@
     <a (click)="currentPage = currentPage - 1" class="page-link">Prev</a>
   </li>
 
-<ng-container *ngFor="let image of images; let i = index;">
+<ng-container *appTimes="images.length; let i = index">
   <li
     class="page-item"
     [appClass]="{ active: i === currentPage }"
 
     *ngIf="checkWindowIndex(i)"
     >
-    <a (click)="currentPage = i" class="page-link">{{ i +1 }}</a>
+    <a (click)="currentPage = i" class="page-link">{{ i + 1 }}</a>
   </li>
 </ng-container>
 
